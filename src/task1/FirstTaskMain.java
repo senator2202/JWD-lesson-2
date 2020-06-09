@@ -2,7 +2,7 @@ package task1;
 
 public class FirstTaskMain {
     public static void main(String[] args) {
-        String name = new String();
+        String name = "";
         for (String s : args) {
             name = name + s + " ";
         }
