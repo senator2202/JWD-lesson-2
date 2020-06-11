@@ -1,7 +1,7 @@
 package task6;
 
 public class ParseService {
-    public TaskExecutor parseArgs(String[] args) throws NumberFormatException {
+    public TaskExecutor parseArgs(String[] args){
         TaskExecutor executor = new TaskExecutor();
         executor.setDays(Integer.parseInt(args[0]));
         StringBuilder sb = new StringBuilder();
